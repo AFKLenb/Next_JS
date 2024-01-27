@@ -8,7 +8,7 @@ export default function Button(props) {
             </Link>
         )
     }
-    return (
+return (
     <button className={Styles.button}>
             {props.children}
     </button>
